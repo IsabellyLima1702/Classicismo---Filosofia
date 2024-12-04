@@ -1,0 +1,196 @@
+/* reset */
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ ul, ol,li{
+ list-style: none;
+
+}
+ 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:  #2B4A56;
+}
+ 
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #FDECDE;
+    width: 99vw;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw;
+}
+
+header nav a{
+    color: white;
+    padding: 1.3vh;
+    border-radius: 2vh;
+    font-size: 3vh;
+    font-style: unset;
+}
+
+header nav a:hover{
+    background-color: #2B4A56;/* para ficar contornado. Para ficar sem contorno [e só deixar a cor*/   
+  /*se nao quiser que mude a cor, mas sublinhe é so usar bottom-border 4px tomato*/
+}
+
+.descricao{
+    font-size: 3vh;
+    color: #2B4A56;
+    font-style: normal;
+    margin-left: 3vh;
+    margin-top: 1vh;
+}
+
+
+.filosofia img{
+    margin-left: 6vh;
+    margin-top: 1vh;
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 2.6vh;
+    font-style: italic;
+    width: 80%;
+    margin-left: 113vh;
+    margin-top: 10vh;
+    color: #FDECDE;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.conteudos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FDECDE;
+}
+
+#conteudo1 h1{
+    font-size: 6vh;
+    margin-top: -16vh;
+    margin-left: 6vw;
+}
+
+#conteudo1 h2{
+    font-size:3vh;
+    margin-left: 8vw;
+    margin-bottom: 9vh;
+}
+#conteudo1 p{
+    font-size: 3vh;
+    width: 80vh;
+    font-style: italic;
+    margin-bottom:13vh;
+    margin-left: 6vw;
+}
+
+.texto2{
+    font-size: 2.6vh;
+}
+
+.texto2 p{
+    width: 90vh;
+}
+
+.destaque{
+    background-repeat: no-repeat;
+}
+
+.destaque img{
+    width: 80vh;
+    height: 40vh;
+    background-repeat: no-repeat;   
+    align-items:  center; 
+    display:flex;
+    position: relative;
+    right: -90vh;
+    top: -53vh;
+    position: relative;
+    margin-left: 23vh;
+}
+
+.periodos h1{
+    font-size: 6vh;
+    margin-top: -92vh;
+    margin-left: 8vw;
+    margin-bottom: 10vh;
+}
+
+.periodo1{
+    font-size: 2.6vh;
+    margin-left: 8vw;
+    margin-bottom: 20vh;
+
+}
+
+.periodo2{
+    font-size: 2.6vh;
+    margin-left: 8vw;
+    margin-bottom: 20vh;
+}
+
+.periodo3{
+    font-size: 2.6vh;
+    margin-left: 8vw;
+}
+
+.pre{
+    width: 100vh;
+    font-size: 3vh;
+    margin-left: 33vw;
+    margin-top: -56vh;
+}
+
+.classico{
+    width: 100vh;
+    font-size: 3vh;
+    margin-left: 68.6vh;
+    margin-top: 5vw;
+}
+
+.pos{
+    width: 102vh;
+    font-size: 3vh;
+    margin-left: 32.6vw;
+    margin-top: 10vh;
+}
+
+#conteudo2 img{
+    width: 206vh;
+    height: 100vh;
+    opacity:50%;
+}
+
+
+
+
