@@ -268,7 +268,28 @@ main{
     margin-top: -1.3vh;
 }
 
+footer{
+    background-color: #FDECDE;
+    color: black;
+    height: 10vh;
+    width: 99.1vw;
+    margin-top: -10vh;
+    font-size: 3vh;
+    font-style: italic;
+}
 
+footer h2{
+    margin-left: 53vh;
+    margin-top: 2vh;
+    font-size: 4.7vh;
+}
+
+footer p{
+    margin-left: 165vh;
+    font-size: 2vh;
+    margin-top: -3vh;
+    font-style: italic;
+}
 
 
 
