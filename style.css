@@ -191,6 +191,84 @@ main{
     opacity:50%;
 }
 
+#conteudo3{
+    width: 207vh;
+    height: 100vh;
+}
+
+.titulo h1{
+    font-size: 6vh;
+    margin-top: 15vh;
+    margin-left: 6vw;
+}
+
+.imagens img{
+    margin-top: 8vh;
+    margin-left: 18vh;
+    padding-right: 40vh;
+}
+
+.metafisica{
+    font-size: 3.7vh;
+    font-style: normal;
+    margin-top: 3vh;
+    margin-left: 23vh;
+    padding-right: 40vh;
+}
+
+.cosmologia{
+    font-size: 3.7vh;
+    font-style: normal;
+    margin-top: -3.8vh;
+    margin-left: 88vh;
+    padding-right: 40vh;
+}
+
+.estoicismo{
+    font-size: 3.6vh;
+    font-style: normal;
+    margin-top: -4vh;
+    margin-left: 153vh;
+    padding-right: 40vh;
+}
+
+.paragrafo1{
+    width: 30vh;
+    font-size: 2vh;
+    margin-left: 11vw;
+    margin-top: 3vh;
+}
+
+.paragrafo2{
+    width: 33vh;
+    font-size: 2vh;
+    margin-left: 42.1vw;
+    margin-top: -32vh;
+}
+
+.paragrafo3{
+    width: 32vh;
+    font-size: 2vh;
+    margin-left: 73.2vw;
+    margin-top: -32vh;
+}
+
+.linha1{
+    margin-left: 20vh;
+    margin-top: 7vh;
+}
+
+.linha2{
+    margin-left: 86vh;
+    margin-top: -1.5vh;
+}
+
+.linha3{
+    margin-left: 152vh;
+    margin-top: -1.3vh;
+}
+
+
 
 
 
